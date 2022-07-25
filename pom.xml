@@ -11,7 +11,7 @@
 	<groupId>com.scalesec</groupId>
 	<artifactId>vulnado</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Vulnerable Application By ASecurityGuru</name>
+	<name>vulnado</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -65,15 +65,15 @@
 		    <version>0.10.5</version>
 		    <scope>runtime</scope>
 		</dependency>
-    </dependencies>
+	</dependencies>
+
 	<build>
-	<plugins>
-		<plugin>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-maven-plugin</artifactId>
-		</plugin>
-	</plugins>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
 	</build>
-	
 
 </project>
